@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
-import {
-    NavLink
-  } from "react-router-dom";
-export default class Navbar extends Component {
-    render() {
+import React from 'react'
+import {NavLink} from "react-router-dom";
+export default function Navbar () {
         return (
             <>
-                <nav className="navbar navbar-expand-lg navbar-dark">
+                <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">Updated Media</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,5 +38,5 @@ export default class Navbar extends Component {
                 </nav>
             </>
         )
-    }
+
 }

@@ -39,3 +39,11 @@ body, html {
   color: #ffffff;
   cursor: pointer;
 }
+.btn-primary:hover {
+background-color: #ffff !important;
+color: #2a4abb !important;
+}
+.btn-primary{
+  background-color: #2a4abb;
+  color:#ffff;
+  }
